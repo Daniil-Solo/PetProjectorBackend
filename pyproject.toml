@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "petprojector"
+version = "0.1.0"
+description = "Find and create projects in this webservice"
+authors = ["Daniil-Solo <daniil.solo1723@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.1"
+djangorestframework = "^3.14.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
